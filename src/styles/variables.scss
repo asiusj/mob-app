@@ -1,0 +1,16 @@
+@import '../../node_modules/vuetify/src/styles/tools/_functions.sass';
+
+$mob-app: () !default;
+$mob-app: map-deep-merge(
+  (
+    'background': #FAF3F3
+  ),
+  $mob-app
+);
+
+$body-font-family: 'Inter', sans-serif !default;
+$material-light: ('background': map-get($mob-app, 'background'));
+
+.no-hover-btn:hover:before {
+    opacity: 0 !important;
+}
