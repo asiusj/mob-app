@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "id": "42",
+            "name": "Vasya",
+            "email": "vasya@example.com",
+            "role": "1",
+            "password": "c4039f0ec7cb627037ee85496bddcfbc82b87d88"
+        },
+        {
+            "id": "666",
+            "name": "Petya",
+            "email": "petya@example.com",
+            "role": "1",
+            "password": "7fb98ca2f6f7a2622c033a2c7ece181fb4ca222f"
+        }
+    ]
+}

@@ -10,7 +10,8 @@ $mob-app: map-deep-merge(
 
 $body-font-family: 'Inter', sans-serif !default;
 $material-light: ('background': map-get($mob-app, 'background'));
-
-.no-hover-btn:hover:before {
-    opacity: 0 !important;
-}
+$text-field-filled-full-width-outlined-dense-slot-min-height: 36px !default;
+$text-field-filled-full-width-outlined-slot-min-height: 36px !default;
+$text-field-enclosed-prepend-append-margin-top: 9px !default;
+$text-field-dense-label-active-transform: translateY(-23px) scale(.75) !default;
+$text-field-filled-margin-top: 4px !default;
