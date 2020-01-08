@@ -20,7 +20,7 @@ After that you will be automatically sign in.
 You cant sign out, cause it isn't nesessary.  
 Just press F5 to reload page to "sign out".  
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
