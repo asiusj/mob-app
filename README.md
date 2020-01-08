@@ -1,10 +1,11 @@
-## mob-spa
+# mob-spa
+This is a test work for hybrid.ai company.  
 There are some instructions below.
 
 See this in work you can by using this link: https://asiusj.github.io/mob-app/  
-This is serverless demo app
+This is serverless demo app.
 
-### There is fake-data.json file with two users:
+There is fake-data.json file with two users:
 ```
 email: vasya@example.com  
 password: QWE333221?
