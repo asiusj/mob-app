@@ -13,7 +13,7 @@
         </v-row>
         <v-row>
           <v-col>
-            <v-window v-model="step" touchless="true">
+            <v-window v-model="step" :touchless="true">
               <v-window-item :value="1">
                 <div
                   class="caption grey--text text--darken-1 text-center"
