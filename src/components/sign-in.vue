@@ -100,7 +100,7 @@ export default class SignIn extends Vue {
 
   submit() {
     let users: AppUser[] = this.$store.getters.getFakeData;
-    console.log(users);
+
     let u = users.find(el => {
       if (el.email === this.email) {
         return true;
@@ -118,9 +118,7 @@ export default class SignIn extends Vue {
         this.customPasswordErrors.push(
           "Wrong auth pair. Have you forgot your password?"
         );
-        console.log(
-          CryptoJS.HmacSHA1(this.password, "best-ever-key").toString()
-        );
+
         setTimeout(() => {
           let f = this.$refs.passwordField as any;
           this.password = "";
@@ -160,5 +158,8 @@ export default class SignIn extends Vue {
 .no-hover-btn:hover:before,
 .no-focus-btn:focus::before {
   opacity: 0 !important;
+}
+.v-text-field.v-text-field--enclosed.v-input-custom {
+  margin-top: 21px;
 }
 </style>

@@ -53,8 +53,19 @@
                 <SignIn @setStep="setStep(2)" />
               </v-window-item>
 
-              <v-window-item :value="4">
-                
+              <v-window-item :value="4" class="container fill-height">
+                <v-container>
+                  <v-row>
+                    <v-col class="d-flex justify-center pt-12">
+                      <v-btn
+                        v-if="user.id > 0"
+                        to="/home"
+                        color="primary"
+                        class="no-focus-btn text-capitalize"
+                      >Get Started</v-btn>
+                    </v-col>
+                  </v-row>
+                </v-container>
               </v-window-item>
             </v-window>
           </v-col>

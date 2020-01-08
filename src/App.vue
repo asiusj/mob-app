@@ -1,26 +1,19 @@
 <template>
   <v-app>
     <v-content>
-      <GreetingsPage />
+      <router-view></router-view>
+      <!-- <GreetingsPage /> -->
     </v-content>
   </v-app>
+  
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import GreetingsPage from "@/components/greetings-page.vue";
+
 
 export default Vue.extend({
   name: "App",
-
-  components: {
-    GreetingsPage
-  },
-
-  data: () => ({
-    //
-  })
 });
 </script>
 

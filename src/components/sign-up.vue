@@ -196,4 +196,7 @@ export default class SignUp extends Vue {
 .no-focus-btn:focus::before {
   opacity: 0 !important;
 }
+.v-text-field.v-text-field--enclosed.v-input-custom {
+  margin-top: 21px;
+}
 </style>
