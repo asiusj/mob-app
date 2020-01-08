@@ -20,7 +20,7 @@ const routes = [
 
 const router = new VueRouter({
     base: '/mob-app/',
-    mode: 'history',
+    // mode: 'history',
     routes
 });
 
