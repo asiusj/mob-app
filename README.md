@@ -15,7 +15,7 @@ email: petya@example.com
 password: GodsAndMonsters$
 ```
 You can sign in using it. And also you can't sign up using this emails.  
-You can sign up with some other valid data. Password must contain 2 capitals and one of {/-?#$%&=/} symbols.  
+You can sign up with some other valid data. Password must contain 2 capitals and one of /-?#$%&=/ symbols.  
 After that you will be automatically sign in.  
 You cant sign out, cause it isn't nesessary.  
 Just press F5 to reload page to "sign out".  
