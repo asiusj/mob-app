@@ -2,7 +2,7 @@
 This is a test work for hybrid.ai company.  
 There are some instructions below.
 
-See this in work you can by using this link: https://asiusj.github.io/mob-app/  
+See how it works you can by using this link: https://asiusj.github.io/mob-app/  
 This is a serverless demo app. Builded with vuejs 2.6 version, using vuex, router, typescript, vuetify.
 
 There is fake-data.json file with two users:
