@@ -19,7 +19,7 @@
                   class="caption grey--text text--darken-1 text-center"
                 >Bring your media to the next level!</div>
                 <v-row class="justify-center">
-                  <v-col class="col-sm-4 col-md-4 col-lg-3 d-flex justify-space-around">
+                  <v-col class="col-sm-4 col-md-4 col-lg-3 col-xl-2 d-flex justify-space-around">
                     <v-btn
                       rounded
                       color="third"
@@ -88,7 +88,7 @@ import axios from "axios";
     SignIn
   },
   created() {
-    axios.get("/fake-data.json").then(response => {
+    axios.get("fake-data.json").then(response => {
       this.$store.dispatch("SetFakeData", response.data.users);
     });
   }

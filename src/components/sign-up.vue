@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row class="justify-center">
-      <v-col class="col-sm-4 col-md-4 col-lg-3">
+      <v-col class="col-sm-4 col-md-4 col-lg-3 col-xl-2">
         <div class="d-flex flex-column white sign-up-block">
           <ValidationObserver
             class="d-flex flex-column"
