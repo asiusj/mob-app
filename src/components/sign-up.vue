@@ -52,7 +52,7 @@
             <ValidationProvider
               ref="password"
               name="password"
-              :rules="{ required: true, min: 8, regex: /^(.*)[A-Z]{2}(.*)[-?#$%&=]{1}(.*)$/ }"
+              :rules="{ required: true, min: 8, regex: /^(.*)(?=.*[-?#$%&=].*){1}(?=(?:.*[A-Z].*){2})(.*)$/ }"
               v-slot="{ errors, valid }"
             >
               <v-text-field
@@ -126,7 +126,7 @@ import { ValidationObserver, ValidationProvider } from "vee-validate";
 import AppUser from "../models/user";
 import axios from "axios";
 import CryptoJS from "crypto-js";
-
+// /^(.*)[A-Z]{2}(.*)[-?#$%&=]{1}(.*)$/
 //QWE333221?
 //GodsAndMonsters$
 
